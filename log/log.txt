@@ -1,0 +1,17 @@
+sudo su
+gedit /var/log/kern.log
+OR
+gedit /var/log/syslog
+
+
+checking
+sudo cat /var/log/kern.log | grep usb
+sudo cat /var/log/syslog | grep usb
+
+and
+
+For editing those log files use command :
+
+sudo nano /var/log/kern.log
+
+sudo nano /var/log/syslog
